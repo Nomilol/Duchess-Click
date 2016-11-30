@@ -6,15 +6,18 @@ span {
 h4 {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 18px;
+
 }
 #butoncard{
 	margin-top: 3em;
 }
+
 #photo {
 	width: 200px;
 	height: 200px;
 	border: 0.063em solid grey;
 }
+
 .blockphoto {
 	display: flex;
 	flex-direction: row;

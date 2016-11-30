@@ -4,6 +4,7 @@ console.log('start');
 		init : function(){
 			app.listeners();
 			$('#carteProfil').hide();
+			$('#profilCard').hide();
 		},
 		listeners : function(){
 			$('#profil').on('click', app.viewProfil);
@@ -18,6 +19,7 @@ console.log('start');
 				description : 'Je suis très intelligente',
 				communication : 'Slack'
 			}
+			$('#profilCard').show();
 			$('#carteProfil').show();
 			$('.status').text(infos.status);
 			$('.prenom').text(infos.prenom);
