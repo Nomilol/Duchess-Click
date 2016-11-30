@@ -1,8 +1,23 @@
-#carteProfil{
-	width: 300px;
-	height : 550px;
-	border : solid red 1px;
-	margin : 0 auto;
-}
+span {
+	color: grey;
+	font-family: Helvetica,Arial,sans-serif;
 
+}
+h4 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 18px;
+}
+#butoncard{
+	margin-top: 3em;
+}
+#photo {
+	width: 200px;
+	height: 200px;
+	border: 0.063em solid grey;
+}
+.blockphoto {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 

@@ -4,28 +4,50 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
 	<title>Duchess Test</title>
+	<link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.css">
 </head>
 <body>
 
-<button id="profil">Cliquer pour voir le profil</button>
-<br>
-<br>
-<br>
-<br>
-
-<div id="carteProfil">
-	<span id="statut">Statut : <span class="status"></span> </span><br>
-	<span id="firstName">Prénom : <span class="prenom"></span> </span><br>
-	<span id="lastName">Nom : <span class="nom"></span> </span><br>
-	<span id="job">Job : <span class="boulot"></span> </span><br>
-	<span id="location">Situation géographique : <span class="lieu"></span>  </span><br>
-	<span id="description">Description : <span class="presentation"></span> </span><br>
-	<span id="interaction">Mode d'intéraction préféré : <span class="communication"></span> </span><br>
+	<button id="profil">Cliquer pour voir le profil</button>
 	<br>
-	<button id="contact">Contacte moi !</button>
-</div>
+	<br>
+	<br>
+	<br>
 
-<script src='node_modules/jquery/dist/jquery.js'></script>
-<script src='app.js'></script>	
+
+	<div class="ui one column center aligned grid" class="blockcard">
+		<div class="ui raised  segment">
+
+			<div class="ui item">			
+				<div id="carteProfil">
+
+					<div class="blockphoto">
+						<div class="photo">
+							<img src="helen.jpg" id="photo">
+						</div>
+
+						<div class="ui right item">
+							<h4 id="statut">Statut : <span class="status"></span> </h4>
+							<h4 id="firstName">Prénom : <span class="prenom"></span> </h4>
+							<h4 id="lastName">Nom : <span class="nom"></span> </h4>
+						</div>
+					</div>
+
+					<h4 id="job">Job : <span class="boulot"></span> </h4>
+					<h4 id="location">Situation géographique : <span class="lieu"></span>  </h4>
+					<h4 id="description">Description : <span class="presentation"></span> </h4>
+					<h4 id="interaction">Mode d'intéraction préféré : <span class="communication"></span> </h4>
+				</div>
+			</div>
+			<div class="ui one column center aligned grid" >
+				<button class="ui red big button" id="butoncard">Contacte moi !</button>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src='node_modules/jquery/dist/jquery.js'></script>
+	<script src='app.js'></script>	
 </body>
 </html>

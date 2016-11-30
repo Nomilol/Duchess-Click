@@ -26,7 +26,7 @@ console.log('start');
 			$('.lieu').text(infos.location);
 			$('.presentation').text(infos.description);
 			$('.communication').text(infos.communication);
-			$('#carteProfil').css("background-color", '#f100e5'); 
+
 		}
 	}
 
