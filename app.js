@@ -16,7 +16,7 @@ console.log('start');
 				nom : 'Lezina',
 				job : 'Développeuse chez Blizzard Entertainement',
 				location : 'Toulouse',
-				description : 'Je suis très intelligente',
+				description : 'J\'adore le JavaScript',
 				communication : 'Slack'
 			}
 			$('#profilCard').show();
